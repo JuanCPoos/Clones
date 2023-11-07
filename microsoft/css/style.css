@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(24, 22, 22);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/**  HEADER, LOGO Y MENU **/
+header {
+    display: inline;
+    width: 100%;
+    height: 54px;
+    margin: 2px;
+}
+
+header ul button {
+    background-color: #fff;
+    border: none;
+    margin: 2px 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    border-right: 2px solid black;
+    width: min-content;
+    padding: 0 15px;
+}
+
+.menu-l {
+    float: left;
+    width: 800px;
+}
+
+.menu-r {
+    float: right;
+}
+
+.menu ul li a {
+    color: black;
+}
+
+
+
+/*** MAIN ***/
+
+main {
+    display: block;
+}
+
+/*** SECTION ****/
+
+section .seccion-central {
+    display: flex;
+
+}
+
+.seccion-central .descargas {
+    width: 700px
+}
+
+/* titulos, párrafo y link */
+section h2 {
+    margin: 7px;
+    font-weight: 300;
+    color: #0067b8;
+}
+
+section .banner-header h2,
+a,
+p {
+    color: #fff;
+    font-weight: 400;
+}
+
+section #primera-seccion {}
+
+section .banner-header {
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    background-color: #0067b8;
+    font-size: 19.2px;
+    padding: 30px;
+}
+
+section .instalaciones {
+    display: block;
+}
+
+section .instalaciones h4 {
+    color: #0067b8;
+}
+
+section .instalaciones button {
+    background-color: #0067b8;
+    margin: 10px 12.8px 30px 0px;
+    padding: 8px 56px;
+    cursor: pointer;
+    border: none;
+}
+
+section .instalaciones button:hover {
+    background-color: #002050;
+}
+
+section .instalaciones button span {
+    color: #FFFF;
+    font-weight: 700;
+    font-style: normal;
+}
+
+section .instalaciones p {
+    color: black;
+}
+
+/*** CONTENEDOR ****/
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/**** ASIDE ****/
+aside {
+    width: 300px;
+    height: 100vh;
+    margin: 5px 0px;
+    padding: 5px;
+    position: absolute;
+
+}
